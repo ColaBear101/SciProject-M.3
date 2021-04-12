@@ -1,20 +1,9 @@
-# SciProject-M.3
-เครื่องแยกเหรียญอัตโนมัติเน่าๆ ของวิชาโครงงานวิทยาศาสตร์ ม.3 เทอม 2
+# Installation #
+Create a new folder called "LiquidCrystal_I2C" under the folder named "libraries" in your Arduino sketchbook folder.
+Create the folder "libraries" in case it does not exist yet. Place all the files in the "LiquidCrystal_I2C" folder.
 
-ตอนแรกอะก็ต้ังใจว่าจะทำเครื่องแยกเหรียญโง่ๆ 
-ที่นับเหรียญแล้วก็แสดงผลจำนวนผ่านหน้าจอ real-time เฟี้ยว ๆ  
-สุดท้ายเอาเวลาไปทำงานอื่น + ไม่ได้เริ่มซักทีไปทำตอนไม่กี่วันสุดท้าย 
-ก็เลยทำเป็น เครื่องสุ่มเหรียญปลอม ๆ ทำเหมือนว่ามันนับได้จริง ๆ  
-ตอนส่งก็โคตรเผา ชิ้นงานไม่น่าใช้อะไรเลย แต่ดีครูแกไม่เรื่องมาก    
+# Usage #
+To use the library in your own sketch, select it from *Sketch > Import Library*.
 
-
-
-# อุปกรณ์ที่ใช้     
--Arduino UNO R3     
--PIR Motion Sensor Detector Module HC-SR501 3 ชิ้น << ใช้เซนเซอร์อันอื่นน่าจะง่ายกว่า แต่ตอนผมซื้อเห็นอันนี้น่าจะดีเลยซื้อ ๆ มา     
--1602 LCD with I2C      
--Breadboard     
-
-รวมๆแล้วไม่เกิน 300 เจ๋งง
-
-
+-------------------------------------------------------------------------------------------------------------------
+This library is based on work done by DFROBOT (www.dfrobot.com).
